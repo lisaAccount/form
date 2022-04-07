@@ -9,6 +9,7 @@ class PageTitle extends Component {
     }
 
     render() {
+        console.log('this.props.children', this.props.children)
         return (
             <Row>
                 <Col span="12">

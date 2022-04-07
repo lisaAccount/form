@@ -1,0 +1,11 @@
+.tableListData {
+  font-size: 15px;
+  padding-left: 3px;
+}
+.viewButton,
+.editButton {
+  font-size: 15px;
+}
+.viewButton.ant-btn {
+  padding: 0;
+}

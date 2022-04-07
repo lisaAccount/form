@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom'
 import Product from '@pages/product/index'
+import CopyProduct from '@pages/product/copyProductIndex/index' 
 import Category from '@pages/product/category'
 import CategoryAdd from '@pages/product/category/add'
 import ProductDetail from '@pages/product/index/detail'
@@ -9,7 +10,8 @@ import ProductSave from '@pages/product/index/save'
 const ProductRouter = () => {
     return (
         <Switch>
-            <Route path='/product/index' component={Product}/>
+            <Route path='/product/index' component={Product} />
+            <Route path='/product/copyProductIndex' component={CopyProduct} />
             <Route path='/product-category/index/:id?' component={Category}/>
             <Route path='/product-category/add' component={CategoryAdd}/>
             <Route path='/product/detail/:id' component={ProductDetail}/>

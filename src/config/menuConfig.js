@@ -14,6 +14,10 @@ const menuList = [
             {
                 "title": "品类管理",
                 "key": "/product-category/index",
+            },
+            {
+                "title": "商品管理复制版本",
+                "key": "/product/copyProductIndex",
             }
         ]
     },

@@ -32,6 +32,7 @@ class ProductList extends Component {
             listParam.searchKeyword = this.state.searchKeyword
         }   
         _product.getProductList(listParam).then(res => {
+            console.log('res', res)
             this.setState({
                 list: res.list,
                 current: res.pageNum,
